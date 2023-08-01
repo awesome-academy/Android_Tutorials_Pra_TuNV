@@ -5,10 +5,12 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import com.example.twoactivities.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
 
     private lateinit var mReply:EditText
+    private lateinit var binding: ActivitySecondBinding
 
     companion object {
         const val extraReply = "com.example.twoactivities.extra.REPLY"
@@ -16,11 +18,13 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
-        mReply = findViewById(R.id.editText_second)
+        binding = ActivitySecondBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+        mReply = binding.editTextSecond
 
         val message = intent.getStringExtra(MainActivity.extraMessage)
-        val textView = findViewById<TextView>(R.id.text_message)
+        val textView = binding.textMessage
         textView.text = message
     }
 
