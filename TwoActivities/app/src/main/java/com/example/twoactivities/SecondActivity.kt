@@ -19,7 +19,6 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
         mReply = findViewById(R.id.editText_second)
 
-        val intent = intent
         val message = intent.getStringExtra(MainActivity.extraMessage)
         val textView = findViewById<TextView>(R.id.text_message)
         textView.text = message
