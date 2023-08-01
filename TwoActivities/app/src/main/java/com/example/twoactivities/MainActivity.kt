@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setOnClickListener(view: View) {
-        Log.wtf(logTag, "Button is clicked")
         val intent =Intent(this,SecondActivity::class.java)
         val message = mMessageEditText.text.toString()
         intent.putExtra(extraMessage,message)
