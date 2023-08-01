@@ -22,3 +22,6 @@ class ExampleInstrumentedTest {
         assertEquals("com.example.twoactivities", appContext.packageName)
     }
 }
+
+
+
