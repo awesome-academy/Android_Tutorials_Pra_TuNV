@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImplicitIntents</string>
+    <string name="website_button">OPEN A WEBSITE</string>
+    <string name="website_hint">Enter your website here</string>
+    <string name="empty_text">Please enter the field</string>
+    <string name="map_button">OPEN LOCATION</string>
+    <string name="snippet_text">SHARE THIS TEXT</string>
+    <string name="map_hint">Enter your location here</string>
+    <string name="snippet_hint">Enter your text here</string>
+</resources>
+
+
