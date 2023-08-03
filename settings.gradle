@@ -14,4 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "TwoActivities"
 include ':app'
+include ':implicitintents'
+include ':fragmentexample'
+
 
