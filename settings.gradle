@@ -20,6 +20,7 @@ include ':fragmentcomunication'
 include ':scorekeeperapp'
 include ':droidcafeforexc9'
 include ':dialogandpicker'
+include ':tabexperiment'
 
 
 
