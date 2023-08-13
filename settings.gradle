@@ -22,6 +22,7 @@ include ':droidcafeforexc9'
 include ':dialogandpicker'
 include ':tabexperiment'
 include ':recyclerviewexample'
+include ':simpleasynctask'
 
 
 
