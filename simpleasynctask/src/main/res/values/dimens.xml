@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview1_margin_start">60dp</dimen>
+    <dimen name="textview1_margin_top">140dp</dimen>
+    <dimen name="textview1_margin_end">60dp</dimen>
+    <dimen name="button_margin_start">132dp</dimen>
+    <dimen name="button_margin_top">32dp</dimen>
+</resources>
+
+
+
