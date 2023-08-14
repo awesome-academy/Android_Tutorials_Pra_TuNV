@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DialogAndPicker</string>
+    <string name="alert_button_text">ALERT</string>
+    <string name="alert_title_text">Tap to test alert!</string>
+    <string name="alert_title">Alert</string>
+    <string name="alert_message">Click OK to continue, or Cancel to stop:</string>
+    <string name="datePicker_text">Choose a date</string>
+    <string name="datePicker_button_text">DATE</string>
+    <string name="pos_nutton_text">OK</string>
+    <string name="pos_button_toast">Pressed OK</string>
+    <string name="neg_button_text">Cancel</string>
+    <string name="neg_button_toast">Pressed Cancel</string>
+</resources>
+
+
+
