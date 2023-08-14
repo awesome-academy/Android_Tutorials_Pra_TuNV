@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin_start"
+        android:layout_marginTop="@dimen/alert_text_margin_top"
+        android:layout_marginEnd="@dimen/text_margin_end"
+        android:text="@string/alert_title_text"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/alert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/alert_button_margin_start"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:text="@string/alert_button_text"
+        app:layout_constraintStart_toStartOf="@id/alertTitle"
+        app:layout_constraintTop_toBottomOf="@id/alertTitle" />
+
+    <TextView
+        android:id="@+id/datePicker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin_start"
+        android:layout_marginTop="@dimen/date_text_margin_top"
+        android:layout_marginEnd="@dimen/text_margin_end"
+        android:text="@string/datePicker_text"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/datePicker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/date_button_margin_start"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:text="@string/datePicker_button_text"
+        app:layout_constraintStart_toStartOf="@id/datePicker_text"
+        app:layout_constraintTop_toBottomOf="@id/datePicker_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
