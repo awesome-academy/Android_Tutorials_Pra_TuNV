@@ -24,6 +24,7 @@ include ':tabexperiment'
 include ':recyclerviewexample'
 include ':simpleasynctask'
 include ':whowroteit'
+include ':powerreceiver'
 
 
 
