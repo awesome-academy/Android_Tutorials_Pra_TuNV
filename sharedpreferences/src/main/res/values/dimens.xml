@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="count_button_margin_end">16dp</dimen>
+    <dimen name="lower_guideline_margin_end">70dp</dimen>
+    <dimen name="button_margin_bottom">7dp</dimen>
+    <dimen name="upper_guideline_margin_end">150dp</dimen>
+    <dimen name="color_button_margin_top">5dp</dimen>
+    <dimen name="text_size">112sp</dimen>
+</resources>
+
+
